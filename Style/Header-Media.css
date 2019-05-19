@@ -1,0 +1,46 @@
+		/*" -----tablet screen----- "*/
+
+@media (min-width: 770px) and (max-width: 1024px){
+	.header{
+		padding: 2% 0;
+	}
+	.head-continer{
+		width: 95vw;
+	}
+	.menu-bar li{
+		margin-left: 0.8em;
+	}
+	.menu-bar li a{
+		font-size: 1.2em;
+	}
+	.menu-bar li a:hover{
+		padding-bottom: 1.6em;
+	}
+	.header hr{
+		display: none;
+	}
+	.page-continer{
+		font-size: 0.9em;
+	}
+}
+
+		/*" -----mobiel screen----- "*/
+
+@media (min-width: 320px) and (max-width: 769px){
+	.header{
+		padding: 2% 0;
+	}
+	.menu-bar{
+		display: none;
+	}
+	.header-visablity{
+		display: flex;
+		justify-content: space-between;
+	}
+	.header hr{
+		display: none;
+	}
+	.page-continer{
+		font-size: 0.8em;
+	}
+}

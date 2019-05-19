@@ -1,0 +1,250 @@
+@charset "utf-8";
+.home{
+	background-image: url(../Image/home-bg.jpg);
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-position-y: -190px;
+	position: relative;
+
+}
+.overlay {
+	background: -webkit-linear-gradient( top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.01) 1%,rgba(0,0,0,0.99) 99%,rgba(0,0,0,1) 100%);
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.top {
+	position: relative;
+ 	z-index: 1;
+}
+.home-logo{
+	width: 50%;
+}
+.continer{
+	grid-gap: 4em;
+}
+.home-images{
+	border: 0.3em solid white;
+	border-radius: 50%;
+}
+.first h3, .second h3, .third h3{
+	font-size: 2.6em;
+}
+.first p, .second p, .third p{
+	font-size: 1.3em;
+}
+button{
+	border: 0.2em solid transparent;
+	border-radius: 2.7em;
+	cursor: pointer;
+	outline: none;
+}
+.button{
+	height: 55px;
+	width: 210px;
+}
+.home-button{
+	font-size: 1.8em;
+	color: #eead73;
+	background-color: white;
+}
+.home-button:hover{
+	box-shadow:3px 3px 70px 3px #e5e5e5;
+	transform: scale(1.2);
+}
+.margin-bottom{
+	margin-bottom: 8em;
+}
+.about-us{
+	color: #31353e;
+	text-align: center;
+	margin-bottom: 7em;
+}
+h2{
+	font-size: 2.8em;
+}
+.text-center{
+	text-align: center;
+}
+.mission{
+	margin-top: 7em;
+}
+.image-mission{
+	position: relative;
+}
+.m-img{
+	width: 100%;
+}
+.about-images{
+	display: none;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+.about-images img{
+	width: 70%;
+}
+.image-mission:hover .m-img{
+	filter: opacity(60%);
+	filter: brightness(50%);
+}
+.image-mission:hover .about-images{
+	display: block;
+}
+.mission h3{
+	font-size: 2em;
+}
+.mission p{
+	font-size: 1.4em;
+	text-align: left;
+}
+.button1{
+	height: 55px;
+	width: 180px;
+}
+.about-button{
+	font-size: 1.5em;
+	color: #87a74d;
+	background-color: white;
+	margin-top: 2.5em;
+}
+.about-button:hover{
+	box-shadow:5px 5px 50px 5px #87a74d;
+	transform: scale(1.2);
+}
+.Newsletter{
+	background-image: url(../Image/newsletter-back.jpg), -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.01) 1%,rgba(0,0,0,0.99) 99%,rgba(0,0,0,1) 100%);
+	background-size: cover;
+	background-blend-mode: overlay;;
+	padding: 5% 0;
+	color: white;
+}
+.cont{
+	justify-content: center;
+	flex-direction: column;
+}
+.cont h2{
+	margin: 0;
+}
+.cont p{
+	font-size: 1.5em;
+}
+.text{
+	background-color: rgba(255,255,255,.2);
+	height: 55px;
+	width: 500px;
+  	border: 0.1em solid #c5c5c4;
+	border-radius: 2.7em;
+	font-size: 1.8em;
+  	box-sizing: border-box;
+	color: white;
+	outline: none;
+}
+::placeholder{
+	color: white;
+	font-family: HelveticaNeueLTStd-Cn;
+}
+.cont input[type=text] {
+  padding: 20px 40px;
+  margin: 60px 0 0;
+}
+.relative{
+	position: relative;
+}
+.new-button{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.email-button{
+	font-size: 1.8em;
+	color: #eead73;
+	background-color: white;
+}
+.email-button:focus{
+	background-color: #eead73;
+	color: white;
+}
+.section{
+	background-color: white;
+	width: 100%;
+	padding: 4% 0;
+}
+.section-text{
+	grid-gap: 10em;
+}
+.section-text h3{
+	font-size: 2.6em;
+}
+.section-text p{
+	font-size: 1.3em;
+}
+.section-button1, .section-button2{
+	font-size: 1.8em;
+	color: white;
+	margin-top: 3em;
+}
+.section-button1{
+	background-color: #f8b882;
+}
+.section-button1:active{
+	color: #f8b882;
+	background-color: rgba(237,239,241,.6);
+}
+.section-image1, .section-image2{
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+}
+.section-image1{
+	border: 0.2em solid #f8b882;
+}
+.section-image2{
+	border: 0.2em solid #86a64c;
+}
+.section-button2{
+	background-color: #86a64c;
+}
+.section-button2:active{
+	color: #86a64c;
+	background-color: rgba(237,239,241,.6);
+}
+.brand{
+	width: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 3% 0;
+}
+.brand-image{
+	position: relative;
+	justify-content: flex-start;
+	width: 600%;
+	animation: 10s slid infinite linear;
+	animation-fill-mode: both;
+}
+.brand-image img{
+	width: 2.25%; 
+	margin: 0 15px;
+}
+.brand-image img:hover{
+	transform: scale(1.4);
+	filter: sepia(50%);
+	filter: saturate(70%);
+}
+@keyframes slid {
+0% { left: 0%; }
+13% { left: 0%; }
+17% { left: -16.7%; }
+30% { left: -16.7%; }
+34% { left: -33.4%; }
+47% { left: -33.4%; }
+51% { left: -50.1%; }
+64% { left: -50.1%; }
+68% { left: -66.8%; }
+81% { left: -66.8%; }
+85% { left: -83.5%; }
+96% { left: -83.5%; }
+100% { left: -100%; }
+}

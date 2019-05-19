@@ -1,0 +1,114 @@
+@charset "utf-8";
+.home{
+	background-image: url(../Image/aboutus-back.jpg), -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.01) 1%,rgba(0,0,0,0.99) 99%,rgba(0,0,0,1) 100%);
+	justify-content: center;
+}
+.about-us{
+	color: #31353e;
+	text-align: center;
+	margin-bottom: 75px;
+}
+h2{
+	font-size: 28px;
+}
+.text-center{
+	text-align: center;
+}
+.mission{
+	margin-top: 75px;
+}
+.image-mission{
+	position: relative;
+}
+.m-img{
+	width: 100%;
+}
+.about-images{
+	display: none;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+.about-images img{
+	width: 70%;
+}
+.image-mission:hover .m-img{
+	filter: opacity(60%);
+	filter: brightness(50%);
+}
+.image-mission:hover .about-images{
+	display: block;
+}
+.mission h3{
+	font-size: 20px;
+}
+.mission p{
+	font-size: 14px;
+	text-align: left;
+}
+button{
+	border: 2px solid transparent;
+	border-radius: 27px;
+	cursor: pointer;
+	outline: none;
+}
+.button{
+	height: 55px;
+	width: 180px;
+}
+.about-button{
+	font-size: 15px;
+	color: #87a74d;
+	background-color: white;
+	margin-top: 25px;
+}
+.about-button:hover{
+	box-shadow:5px 5px 50px 5px #87a74d;
+	transform: scale(1.2);
+}
+.separator{
+	background-image: url(../Image/aboutus-whatwedo.jpg), -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.01) 1%,rgba(0,0,0,0.99) 99%,rgba(0,0,0,1) 100%);;
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: overlay;
+	padding: 3% 0;
+}
+.separator h2{
+	font-size: 48px;
+	color: white;
+}
+.services h3{
+	padding: 2% 0;
+	font-size: 24px;
+}
+.services img{
+	width: 100%;
+	height: 375px;
+}
+.horecastar{
+	background-color: #82a759;
+}
+.horecastar-continer, .trade-continer, .horeca-continer{
+	width: 85%;
+	margin: 0 auto;
+	padding: 10% 0;
+	color: white;
+}
+.services h3{
+	font-size: 20px;
+}
+.services p{
+	font-size: 12px;
+}
+.trade{
+	background-color: #da7c4b;
+}
+.horeca{
+	background-color: #a7a7a7;
+}
+.horeca a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #d67843;
+}

@@ -1,0 +1,65 @@
+		/*" -----tablet screen----- "*/
+
+@media (min-width: 770px) and (max-width: 1024px){
+	.follow h2{
+		font-size: 2.6em;
+	}
+	.fab.fa-facebook-f, .fab.fa-twitter, .fab.fa-google-plus-g{
+		font-size: 2em;
+	}
+	.foot-continer{
+		width: 88vw;
+	}
+	.foot-continer h3{
+		font-size: 1.6em;
+	}
+	.contact p{
+		font-size: 1.1em;
+	}
+	.contact p:first-child{
+		padding-top: 1.2em;
+	}
+	.foot-visablity{
+		display: none;
+	}
+	.foot-unvisablity{
+		display: block;
+	}
+}
+
+		/*" -----mobiel screen----- "*/
+
+@media (min-width: 320px) and (max-width: 769px){
+	.foot{
+		padding: 2% 0;
+	}
+	.follow h2{
+		font-size: 2em;
+	}
+	.fab.fa-facebook-f, .fab.fa-twitter, .fab.fa-google-plus-g{
+		font-size: 1.6em;
+	}
+	.foot-continer{
+		width: 93vw;
+		flex-direction: column;
+	}
+	.foot-continer h3{
+		font-size: 1.5em;
+	}
+	.contact p{
+		font-size: 1em;
+	}
+	.contact p:first-child{
+		padding-top: 2.2em;
+	}
+	.foot-visablity .foot-broder{
+		display: none;
+	}
+	.align{
+		display: block;
+		margin-top: 4em;
+	}
+	.p-t{
+	padding-top: 0em;
+	}
+}

@@ -1,0 +1,227 @@
+		/*" -----tablet screen----- "*/
+
+@media (min-width: 770px) and (max-width: 1024px){
+	.width60{
+		width: 85vw;
+	}
+	.home{
+		background-position-y: -130px;
+	}
+	.continer{
+		grid-gap: 2.5em;
+	}
+	.first h3, .second h3, .third h3{
+		font-size: 2em;
+	}
+	.first p, .second p, .third p{
+		font-size: 1em;
+	}
+	.button{
+		height: 50px;
+		width: 180px;
+	}
+	.home-button{
+		font-size: 1.5em;
+	}
+	.margin-bottom{
+		margin-bottom: 5em;
+	}
+	.about-us{
+		margin-bottom: 5em;
+	}
+	h2{
+		font-size: 2em;
+	}
+	.mission{
+		margin-top: 5em;
+	}
+	.mission h3{
+		font-size: 1.6em;
+	}
+	.mission p{
+		font-size: 1.2em;
+	}
+	.button1{
+		height: 50px;
+		width: 140px;
+	}
+	.about-button{
+		font-size: 1.2em;
+	}
+	.cont p{
+		font-size: 1.2em;
+	}
+	.text{
+		height: 50px;
+		width: 450px;
+		font-size: 1.5em;
+	}
+	.email-button{
+		font-size: 1.5em;
+	}
+	.section-text{
+		grid-gap: 7em;
+	}
+	.section-text h3{
+		font-size: 2em;
+	}
+	.section-text p{
+		font-size: 1.1em;
+	}
+	.section-button1, .section-button2{
+		font-size: 1.4em;
+	}
+	.section-text{
+		grid-gap: 6em;
+	}
+	.section-text h3{
+		font-size: 2em;
+	}
+	.section-text p{
+		font-size: 1.1em;
+	}
+	.section-button1, .section-button2{
+		font-size: 1.4em;
+	}
+	.brand{
+		width: 75%;
+	}
+	.brand-image img{
+		width: 2.68%; 
+	}
+	@keyframes slid {
+		0% { left: 0%; }
+		13% { left: 0%; }
+		17% { left: -20%; }
+		30% { left: -20%; }
+		34% { left: -40%; }
+		47% { left: -40%; }
+		51% { left: -60%; }
+		64% { left: -60%; }
+		68% { left: -80%; }
+		81% { left: -80%; }
+		85% { left: -100%; }
+		96% { left: -100%; }
+		100% { left: -120%; }
+	}
+}
+
+		/*" -----mobiel screen----- "*/
+
+@media (min-width: 481px) and (max-width: 769px){
+	.home{
+		background-position-y: -20px;
+	}
+	.width60{
+		width: 90vw;
+	}
+	.overlay{
+		top: -20px;
+	}
+	.top{
+		margin-top: 7em;
+	}
+	.continer{
+		width: 70vw;
+		margin: 0 auto;
+		grid-gap: 0.7em;
+	}
+	.grid-3{
+		grid-template-columns:1fr;
+	}
+	.first h3, .second h3, .third h3{
+		font-size: 1.5em;
+	}
+	.first p, .second p, .third p{
+		font-size: 1em;
+	}
+	.button{
+		height: 40px;
+		width: 120px;
+	}
+	.home-button{
+		font-size: 1.2em;
+	}
+	.margin-bottom{
+		margin-bottom: 3em;
+	}
+	.about-us{
+		margin-bottom: 3em;
+	}
+	h2{
+		font-size: 1.5em;
+	}
+	.mission{
+		width: 60vw;
+		margin: 0 auto;
+	}
+	.mission h3{
+		font-size: 1.4em;
+	}
+	.mission p{
+		font-size: 1em;
+	}
+	.button1{
+		height: 40px;
+		width: 110px;
+	}
+	.about-button{
+		font-size: 1em;
+	}
+	.cont p{
+		font-size: 1.2em;
+	}
+	.text{
+		height: 40px;
+		width: 400px;
+		font-size: 1.3em;
+	}
+	.cont input[type=text] {
+		  padding: 19px 35px;
+}
+	.email-button{
+		font-size: 1.2em;
+	}
+	.grid-2{
+		grid-template-columns:1fr;
+	}
+	.section{
+		text-align: center;
+	}
+	.section-image1{
+		order: -1;
+	}
+	.section-text{
+		grid-gap: 3em;
+	}
+	.section-text h3{
+		font-size: 1.5em;
+	}
+	.section-text p{
+		font-size: 1em;
+	}
+	.section-image1, .section-image2{
+		margin: 0 auto;
+	}
+	.section-button1, .section-button2{
+		font-size: 1.1em;
+	}
+	.brand-image img{
+		width: 4.63%; 
+	}
+	@keyframes slid {
+		0% { left: 0%; }
+		13% { left: 0%; }
+		17% { left: -33.3%; }
+		30% { left: -33.3%; }
+		34% { left: -66.6%; }
+		47% { left: -66.6%; }
+		51% { left: -100%; }
+		64% { left: -100%; }
+		68% { left: -133.3%; }
+		81% { left: -133.3%; }
+		85% { left: -166.6%; }
+		96% { left: -166.6%; }
+		100% { left: -200%; }
+	}
+}

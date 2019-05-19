@@ -1,0 +1,116 @@
+@charset "utf-8";
+.home{
+	background-image: url(../Image/contactus-back.jpg), -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.01) 1%,rgba(0,0,0,0.99) 99%,rgba(0,0,0,1) 100%);
+	justify-content: center;
+}
+.contactus{
+	background-color: white;
+	padding-bottom: 75px;
+}
+.map{
+	position: relative;
+}
+.map img{
+	width: calc(100vw - 17px);
+ }
+.fas.fa-map-marker-alt{
+	position: absolute;
+	color: #da7c4b;
+	bottom: 40%;
+    left: 31%;
+	font-size: 30px;
+}
+.margin-bottom{
+	margin-bottom: 75px;
+}
+.contactus-header h3{
+	color: #86a64c;
+	font-size: 22px;
+}
+.contactus-header p{
+	color: #4d4d4d;
+	font-size: 16px;
+	filter: opacity(0.8);
+}
+.contactus-continer{
+	grid-template-columns:1fr 3fr;
+	grid-gap: 40px;
+	justify-content: space-between;
+}
+.first h4{
+	color: #4d4d4d;
+	font-size: 16px;
+}
+.first p{
+	color: #82a759;
+	font-size: 12px;
+	font-family: HelveticaNeueLTStd-Cn;
+	margin: 0;
+}
+.second h4{
+	color: #da7c4b;
+	font-size: 16px;
+}
+.name, .email, .message{
+	background-color: rgba(255,255,255,.2);
+	height: 50px;
+	font-size: 14px;
+	border: none;
+  	border-bottom: 2px solid rgba(0,0,0,.2);
+	color: #da7c4b;
+	outline: none;
+	margin-bottom: 15px;
+}
+::placeholder{
+	color: #5b646e;
+	filter: opacity(0.5);
+}
+.name{
+	margin-right: 30px;
+}
+.email, .name{
+	width: 47%;
+}
+.message{
+	width: 100%;
+}
+input:focus{
+  border-bottom-color: #da7c4b;
+}
+.fab.fa-facebook, .fab.fa-twitter-square, .fab.fa-google-plus-square{
+	filter: opacity(.2);
+	color: #062033;
+	font-size: 24px;
+	margin-right: 10px;
+}
+.fab.fa-facebook:hover{
+	filter: opacity(1);
+	color: #4267b2;
+}
+.fab.fa-twitter-square:hover{
+	filter: opacity(1);
+	color: #38A1F3;
+}
+.fab.fa-google-plus-square:hover{
+	filter: opacity(1);
+	color: #d34836;
+}
+.fab.fa-facebook:active{
+	transform: scale(1.5);
+}
+.fab.fa-twitter-square:active{
+	transform: scale(1.5);
+}
+.fab.fa-google-plus-square:active{
+	transform: scale(1.5);
+}
+.far.fa-envelope{
+	filter: opacity(.2);
+	font-size: 16px;
+	margin-right: 5px;
+}
+.second span{
+	font-size: 12px;
+	margin: 0;
+	cursor: pointer;
+}
